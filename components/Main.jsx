@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {AiOutlineMail} from 'react-icons/ai';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import Link from 'next/link';
 
 export const Main = () => {
   return (
@@ -18,16 +19,23 @@ export const Main = () => {
                  <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                  As a Front End specialist with a passion for learning, I have honed my skills in creating visually appealing and user-friendly interfaces. My previous project, DietCalc, showcases my ability to develop functional web applications. In DietCalc, I utilized my skills to create a platform where users can calculate their diet plan based on their age, weight, height, and gender.
                  </p>
+                 
                  <div className='flex items-center justify-between max-w-[300px] m-auto py-4'>
+                  <Link href='https://www.linkedin.com/in/kaushal-kurpad-945330260/'>
                     <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaLinkedin />
                     </div>
+                    </Link>
+                    <Link href='https://github.com/KaushalKurpad'>
                     <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaGithub />
                     </div>
+                    </Link>
+                    <Link href='mailto:Kaushal@techoptimum.org'>
                     <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail />
                     </div>
+                    </Link>
                     <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                     </div>
