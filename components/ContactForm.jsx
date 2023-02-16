@@ -45,7 +45,7 @@ const ContactForm = () => {
             Thank you for contacting me!
           </div>
         )}
-        <form onSubmit={handleSubmit}>
+        <form id="contactform" onSubmit={handleSubmit}>
           <div className="mb-4">
             <label
               htmlFor="name"
