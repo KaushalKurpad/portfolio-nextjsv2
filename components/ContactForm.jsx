@@ -3,27 +3,40 @@ import axios from "axios";
 import { motion } from "framer-motion";
 
 
+
 export const ContactForm = () => {
+
+  
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showConfirmation, setShowConfirmation] = useState(false);
 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+
+    
+    
+
+
     axios
       .post("https://getform.io/f/43a81a42-c74d-443b-8f4b-805db4dc5aa5", { // Replace {your-form-id} with your actual form ID
         name,
         email,
         message,
+        
+        
+
       }, {
         headers: {
           "Content-Type": "application/json",
           "Accept": "application/json"
         }
       })
+      
       .then((res) => {
         setName("");
         setEmail("");
@@ -96,7 +109,9 @@ return (
       required // add required attribute to make message field required
     />
   </div>
+  
   <div className="flex justify-center">
+  
     <motion.button
       type="submit"
       disabled={isSubmitting}

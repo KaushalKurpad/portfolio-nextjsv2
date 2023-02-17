@@ -9,6 +9,9 @@ import {BsFillPersonLinesFill} from 'react-icons/bs';
 export const Navbar = () => {
     const [nav,setNav] = useState(false)
     const [shadow, setShadow] = useState(false)
+    const [navBg] = useState('#ecf0f3')
+    const [linkColor] = useState('#ecf0f3')
+    
     
     const handleNav = () => {
         setNav(!nav)
@@ -27,11 +30,11 @@ export const Navbar = () => {
     
 
      return (
-        <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+        <div style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Image src="/../public/assets/moony.png" alt="/" width='125' height='50' />
             <div>
-                <ul className='hidden md:flex'>
+                <ul style={{backgroundColor: `${linkColor}`}} className='hidden md:flex'>
                     <a href='/#home'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </a>
