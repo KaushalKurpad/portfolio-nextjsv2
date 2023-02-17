@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const Main = () => {
   return (
-    <div id='main' className='w-full h-screen text-center'>
+    <div className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>LET'S BUILD SOMETHING TOGETHER</p>
@@ -36,11 +36,11 @@ export const Main = () => {
                         <AiOutlineMail />
                     </div>
                     </Link>
-                    <Link href="#contactform">
+                    <a href="#contactform">
                     <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                     </div>
-                    </Link>
+                    </a>
                  </div>
             </div>
             

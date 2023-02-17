@@ -35,18 +35,18 @@ export const Navbar = () => {
                     <Link href='/'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
-                    <Link href='/#about'>
+                    <a href='/#about'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-                    </Link>
-                    <Link href='/#skills'>
+                    </a>
+                    <a href='/#skills'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-                    </Link>
-                    <Link href='/#projects'>
+                    </a>
+                    <a href='/#projects'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
-                    </Link>
-                    <Link href='/#contactform'>
+                    </a>
+                    <a href='/#contactform'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-                    </Link>
+                    </a>
                 </ul>
                 <div onClick={handleNav} className='md:hidden'>
                     <AiOutlineMenu size={25}/>
@@ -72,18 +72,18 @@ export const Navbar = () => {
                     <Link href='/'>
                     <li className='py-4 text-sm'>Home</li>
                     </Link>
-                    <Link href='/'>
+                    <a href='/#about'>
                     <li className='py-4 text-sm'>About</li>
-                    </Link>
-                    <Link href='/'>
+                    </a>
+                    <a href='/#skills'>
                     <li className='py-4 text-sm'>Skills</li>
-                    </Link>
-                    <Link href='/'>
+                    </a>
+                    <a href='/#projects'>
                     <li className='py-4 text-sm'>Projects</li>
-                    </Link>
-                    <Link href='/'>
+                    </a>
+                    <a href='/#contactform'>
                     <li className='py-4 text-sm'>Contact</li>
-                    </Link>
+                    </a>
                 </ul>
                 <div className='pt-10'>
                     <p className='uppercase tracking-widest text-[#5651e5]'>Let's connect</p>
@@ -104,9 +104,11 @@ export const Navbar = () => {
                      <AiOutlineMail />
                     </div>
                     </Link>
+                    <a href='/#contactform'>
                     <div className='rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:1scale-105 ease-in duration-300'>
                      <BsFillPersonLinesFill />
                     </div>
+                    </a>
                     
                     
                 </div>
