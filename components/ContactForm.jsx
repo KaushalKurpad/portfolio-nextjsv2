@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-const ContactForm = () => {
+
+export const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -77,6 +78,7 @@ return (
       value={email}
       onChange={(e) => setEmail(e.target.value)}
       className="bg-gray-100 rounded-md px-3 py-2 w-full focus:outline-none"
+      required
     />
   </div>
   <div className="mb-6">
