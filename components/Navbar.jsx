@@ -32,9 +32,9 @@ export const Navbar = () => {
             <Image src="/../public/assets/moony.png" alt="/" width='125' height='50' />
             <div>
                 <ul className='hidden md:flex'>
-                    <Link href='/'>
+                    <a href='/#home'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
-                    </Link>
+                    </a>
                     <a href='/#about'>
                         <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
                     </a>
@@ -69,20 +69,20 @@ export const Navbar = () => {
             </div>
             <div className='py-4 flex flex-col'>
                 <ul className='uppercase'>
-                    <Link href='/'>
-                    <li className='py-4 text-sm'>Home</li>
-                    </Link>
+                    <a href='/#home'>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Home</li>
+                    </a>
                     <a href='/#about'>
-                    <li className='py-4 text-sm'>About</li>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>About</li>
                     </a>
                     <a href='/#skills'>
-                    <li className='py-4 text-sm'>Skills</li>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Skills</li>
                     </a>
                     <a href='/#projects'>
-                    <li className='py-4 text-sm'>Projects</li>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Projects</li>
                     </a>
                     <a href='/#contactform'>
-                    <li className='py-4 text-sm'>Contact</li>
+                    <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                     </a>
                 </ul>
                 <div className='pt-10'>
@@ -104,11 +104,11 @@ export const Navbar = () => {
                      <AiOutlineMail />
                     </div>
                     </Link>
-                    <a href='/#contactform'>
+                    <Link href='https://docs.google.com/document/d/1VIUCqroRK_PIC2egFvWmWjphK9W6ts0D6fC19NhBKwI/edit?usp=sharing'>
                     <div className='rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:1scale-105 ease-in duration-300'>
                      <BsFillPersonLinesFill />
                     </div>
-                    </a>
+                    </Link>
                     
                     
                 </div>
