@@ -14,7 +14,7 @@ export const About = () => {
                 <p className='py-2'>
                  I have spent many hours improving my knowledge of HTML and CSS. It was an easy-to-understand language compared to Java, which required many statements to execute a simple command. I am currently learning different frameworks, such as NextJS, ChakraUI, and ReactJS, as well as various databases, such as PostgreSQL and MongoDB. I understand that being a front-end developer only takes me so far, which is why I am also learning the back-end to become a more valuable asset in the tech industry. 
                 </p>
-                <p className='py-2 text-gray-600 underline cursor-pointer'>Check out my projects</p>
+                
                 
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>

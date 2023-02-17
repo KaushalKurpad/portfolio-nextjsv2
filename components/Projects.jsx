@@ -14,7 +14,7 @@ export const Projects = () => {
     <h2 className='py-4'>What I've Worked On</h2>
     <div className='grid md:grid-cols-2 gap-8'>
     <ProjectItem title='Diet Calculator' backgroundImg={dietcalc} projectUrl='/dietcalc' />
-    <ProjectItem1 title='Discord Leveling Bot' backgroundImg={hyphonz} projectUrl='/discord-bot' />
+    <ProjectItem1 title='Discord Leveling Bot' backgroundImg={hyphonz} projectUrl='/discordbot' />
     
     </div>
     </div>

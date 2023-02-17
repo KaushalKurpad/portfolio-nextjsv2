@@ -1,16 +1,18 @@
 import Image from 'next/image';
 import React from 'react';
-import dietcalc from '../public/assets/projects/dietcalc.png';
+import hyphonz from '../public/assets/projects/hyphonz.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Head from 'next/head';
 
-const diet = () => {
+const discordbot = () => {
   return (
+    
+
     <div className='w-full'>
       <Head>
-        <title>Diet Calc</title>
-        <link rel="icon" href="/diet.ico" />
+        <title>Discord Bot</title>
+        <link rel="icon" href="/discord.ico" />
       </Head>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
@@ -18,12 +20,12 @@ const diet = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={dietcalc}
+          src={hyphonz}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Diet Calculator</h2>
-          <h3>React JS / HTML / CSS</h3>
+          <h2 className='py-2'>Hyphonz</h2>
+          <h3>Discord.JS / JavaScript / MySQL</h3>
         </div>
       </div>
 
@@ -32,10 +34,10 @@ const diet = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This website was built using HTML and CSS with some React JS for aesthetics and JS for backend, We used OpenAI GPT 3 to help make users a diet using age, weight, gender and height. All of these factors help make a diet plan, Which then the Server.js calls back to the API and generates a diet. Me and the team still need to make a way to connect the front end to the backend. 
+            This is Hyphonz, My first team project. Hyphonz is fairly a begineer friendly challenge, Me and the team had plans to make Hyphonz a successfull discord bot but due to time and school, we decided to stop it. But lets talk about Hyphonz, Hyphonz is a discord leveling bot that has slash commands and has advanced leveling features such as giving a role if you reach levels (which you may assign using slash commands) and you may also Adjust the XP and we even added a little card when someone runs /rank, it shows their pfp, their discord status and a XP Bar we also used MySQL to save the ranks and XP.
           </p>
           <a
-            href='https://github.com/AviralDhingra/dietCalc'
+            href='https://github.com/ProHyphonzDaCoder/discord-leveling-bot'
             target='_blank'
             rel='noreferrer'
           >
@@ -48,17 +50,15 @@ const diet = () => {
             <p className='text-center font-bold pb-2'>Languages used</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> HTML
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> JavaScript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
+                <RiRadioButtonFill className='pr-1' /> DiscordJS
               </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> MySQL
+              </p>
+              
               
             </div>
           </div>
@@ -71,4 +71,4 @@ const diet = () => {
   );
 };
 
-export default diet;
+export default discordbot;
