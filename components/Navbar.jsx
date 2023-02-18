@@ -107,11 +107,11 @@ export const Navbar = () => {
                      <AiOutlineMail />
                     </div>
                     </Link>
-                    <Link href='https://docs.google.com/document/d/1VIUCqroRK_PIC2egFvWmWjphK9W6ts0D6fC19NhBKwI/edit?usp=sharing'>
+                    <a href='/RESUME.pdf' download>
                     <div className='rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:1scale-105 ease-in duration-300'>
                      <BsFillPersonLinesFill />
                     </div>
-                    </Link>
+                    </a>
                     
                     
                 </div>
