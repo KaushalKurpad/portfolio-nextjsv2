@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export const About = () => {
   return (
@@ -7,7 +8,7 @@ export const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-black'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-500'>//I am a Passion Driven Web Developer</p>
+                <p className='py-2 text-gray-500'>I am a Passion Driven Web Developer</p>
                 <p className='py-2 text-black'>
                  I am a sophomore at Edina High School. My story is unique in a way. I have been experimenting with different programming languages since 7th grade and found my favorite language to program this year: HTML and CSS.
                 </p>
@@ -18,7 +19,8 @@ export const About = () => {
                 
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src="https://media.discordapp.net/attachments/1054199086519165019/1069142096243593226/C33BE7D5-991A-4A5F-BBDF-23315BA53A5F.jpg?width=502&height=662" alt="/" />
+            <Image src="https://media.discordapp.net/attachments/1054199086519165019/1069142096243593226/C33BE7D5-991A-4A5F-BBDF-23315BA53A5F.jpg?width=502&height=662" alt="/" width={502} height={662} />
+
             </div>
         </div>
     </div>

@@ -11,7 +11,7 @@ export const Main = () => {
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>LET'S BUILD SOMETHING TOGETHER</p>
                  <h1 className='py-4 text-gray-700'>
-                    Hi, I'm <span className='text-[#1e90ff]'> Kaushal</span>
+                 Hi, Im <span className='text-[#1e90ff]'>Kaushal</span>
                  </h1>
                  <h1 className='py-2 text-gray-700'>
                     A Front-End Web Developer

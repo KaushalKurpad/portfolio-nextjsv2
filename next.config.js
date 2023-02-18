@@ -3,4 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['media.discordapp.net'],
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+    ignorePatterns: ["**/*.jsx"],
+  },
+};
