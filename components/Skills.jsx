@@ -11,7 +11,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/aws.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/aws.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>AWS</h3>
@@ -21,7 +21,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/html.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/html.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>HTML</h3>
@@ -31,7 +31,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/css.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/css.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>CSS</h3>
@@ -41,7 +41,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/github1.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/github1.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>Github</h3>
@@ -51,7 +51,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/javascript.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/javascript.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>JavaScript</h3>
@@ -61,7 +61,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/nextjs.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/nextjs.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>NextJS</h3>
@@ -71,7 +71,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/node.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/node.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>NodeJS</h3>
@@ -81,7 +81,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/photoshop.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/photoshop.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>Adobe PhotoShop</h3>
@@ -91,7 +91,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/premier.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/premier.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>Adobe Premier Pro</h3>
@@ -101,7 +101,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/react.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/react.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>ReactJS</h3>
@@ -111,7 +111,7 @@ export const Skills = () => {
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-            <Image src='/../public/assets/skills/tailwind.png' width='64' height='64' alt='/' />
+            <Image src='/assets/skills/tailwind.png' width='64' height='64' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>Tailwind CSS</h3>
