@@ -32,7 +32,7 @@ export const Navbar = () => {
      return (
         <div style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-            <Image src="/../public/assets/moony.png" alt="/" width='125' height='50' />
+            <Image src="/assets/moony.png" alt="/" width={125} height={50} />
             <div>
                 <ul style={{backgroundColor: `${linkColor}`}} className='hidden md:flex'>
                     <a href='/#home'>
