@@ -36,11 +36,11 @@ export const Main = () => {
                         <AiOutlineMail />
                     </div>
                     </Link>
-                    <Link href='https://docs.google.com/document/d/1VIUCqroRK_PIC2egFvWmWjphK9W6ts0D6fC19NhBKwI/edit?usp=sharing'>
+                    <a href='/RESUME.pdf' download>
                     <div className='rounded-full shadow-lg shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                     </div>
-                    </Link>
+                    </a>
                  </div>
             </div>
             
